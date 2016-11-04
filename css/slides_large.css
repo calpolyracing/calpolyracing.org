@@ -1,0 +1,107 @@
+#slideshow_large {
+	width:900px;
+	height:600px;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#frame_large {
+	position:absolute;
+	z-index:0;
+	width:950px;
+	height:600px;
+	top:-21px;
+	left:-64px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides_large {
+	position:absolute;
+	top:11px;
+	left:57px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container_large {
+	width:706px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container_large a {
+	width:706px;
+	height:500px;
+	display:block;
+}
+
+.slides_container_large a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides_large .next,#slides_large .prev {
+	position:absolute;
+	top:226px;
+	left:-35px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides_large .next {
+	left:717px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:120px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/slideshow/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}

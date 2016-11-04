@@ -1,0 +1,30 @@
+.fader {
+   div {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+
+/*
+.fader {
+   div {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left:0;
+      -webkit-transition: opacity 3s ease-in-out;
+      -moz-transition: opacity 3s ease-in-out;
+      -o-transition: opacity 3s ease-in-out;
+      transition: opacity 3s ease-in-out;
+      opacity:0;
+      -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+   }
+   div.opaque {
+      opacity:1;
+      -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      filter: alpha(opacity=1);
+   }
+}*/
